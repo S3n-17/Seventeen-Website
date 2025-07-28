@@ -1,0 +1,326 @@
+body{
+    overflow-x: hidden;
+}
+
+
+#bgpic{ 
+    background-image: url(svtrh21.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw; 
+    height:500px;
+    margin: 0px; 
+    position: absolute; 
+    top: 54px; 
+    left: 0px; 
+    font-size: 200px; 
+    color: white; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    display: flex; 
+    justify-content:left; 
+    align-items:end;  z-index: 1; 
+    filter: brightness(90%);}
+
+#img{height: 100%; 
+    width: 100%;}
+
+#socials{ 
+    position: absolute; 
+    z-index: 5; 
+    bottom: 0px; left:0px; 
+    font-size: 15px; color: white; 
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: left; 
+    align-content: end; 
+    width: 100%; }
+
+.socials{
+    display: inline-block; 
+    padding: 0px 10px; 
+    text-decoration: none; 
+    color: white; }
+
+.logo{
+    display: inline-block; 
+    padding: 0px 0px; 
+    height:25px; 
+    width:25px}
+
+.label{
+    display: inline-block; 
+    padding: 1px 1px; 
+    text-decoration: none; 
+    color: white; 
+    height:100%; 
+    margin:0px 0px 1px 0px; 
+    font-weight: 300;}
+
+#fc{
+    background-image: url(link_icon.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 0 0; 
+    vertical-align: middle;}
+
+#fb{
+    background-image: url(link_icon.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 0 -25px; 
+    vertical-align: middle;}
+
+#x{
+    background-image: url(link_icon.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 0 -50px; 
+    vertical-align: middle;}
+
+#yt{
+    background-image: url(link_icon.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 0 -75px; 
+    vertical-align: middle;}
+
+#wv{
+    background-image: url(link_icon_weverse.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 0 0; 
+    vertical-align: middle; 
+    height:15px; 
+    width:24px}
+
+#ig{
+    background-image: url(link_icon.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 0 -100px; 
+    vertical-align: middle;}    
+
+#nm{
+    position: absolute; 
+    z-index: 5;
+    top:250px; 
+    left:430px; 
+    font-size: 70px; 
+    font-family:Arial, Helvetica, sans-serif; 
+    color: white; 
+    font-weight: 600;}
+
+.tabs{
+    display: inline-block; 
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 25px;; 
+    padding: 10px; 
+    transition: all; 
+    transition-duration: 0.5s;  
+    text-decoration: none;}    
+
+#navbarh{ 
+    display: flex; 
+    flex-direction: row;
+    justify-content:left; 
+    align-items: center; 
+    width:100vw;
+    height: 60px;  
+    position: fixed;
+    top:0px; 
+    left: 0px; 
+    z-index: 5;
+    color: black; 
+    background-color: white;  
+    height:80px;
+    border-bottom: 1px solid #ddd;
+    /* border: black 3px solid;  */
+}    
+
+#blank{
+    width:550px;    
+    left:100px
+}    
+
+.tabs:hover { 
+    color:black;
+}
+
+#galbox{
+    position: absolute;
+    top:600px;
+    left:0px;
+    /* border: 3px black solid; */
+    height:1300px;
+    width:100vw;
+    text-align: center;
+}
+
+#galhead{
+    position: relative;
+    top:0px;
+    
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#6a6a6a;
+}
+
+#pics{
+    position: relative;
+    top: 0px;
+    /* border: 3px black solid; */
+    padding: 10px 15px 10px 0px;
+
+}
+
+.p{
+    /* border: 3px black solid; */
+    height: 270px;
+    width: 270px;
+    display: inline-block;
+    position: relative;
+    margin:10px;
+    transition-duration: 0.5s;
+    
+}
+
+.p:hover{
+    transform:scale(1.02);
+    box-shadow:0px 0px 20px 5px #6a6a6a;
+}
+
+#sc{
+    background-image: url(coupg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#jh{
+    background-image: url(hang.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#js{
+    background-image: url(joshg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#jn{
+    background-image: url(jung.jpg);
+    background-position: 0 -30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hs{
+    background-image: url(hoshg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#ww{
+    background-image: url(wonug.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#wz{
+    background-image: url(ujig.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mh{
+    background-image: url(haog.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mg{
+    background-image: url(gyuj.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#dk{
+    background-image: url(dkg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sk{
+    background-image: url(kwang.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#vn{
+    background-image: url(nong.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#dn{
+    background-image: url(dinog.jpg);
+    background-position: 0 -20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#s1{
+    background-image: url(svtpic1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#s2{
+    background-image: url(svtpic2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#s3{
+    background-image: url(svtpic3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pgno{
+    position: relative;
+    width:100%;
+    top:1870px;
+    /* border: 3px black solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.pgno{
+    display: inline-block;
+    border: 1px transparent solid;
+    background-color: white;
+    padding: 3px;
+    
+}
+
+#rda{
+    width:21px;
+}
+
+#endgal{
+    position: absolute;
+    left: 0px;
+    top:1950px; 
+    right: 0px; 
+    width: 100%; 
+    background-color: #282828; ;
+    z-index: 5; 
+    text-align: center; 
+    color: #6a6a6a; 
+    padding: 25px 0px 20px; 
+    font-size: 15px;
+}
