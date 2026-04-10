@@ -119,7 +119,8 @@ body{
     padding: 10px; 
     transition: all; 
     transition-duration: 0.5s;  
-    text-decoration: none;}    
+    text-decoration: none;
+    color: black;}    
 
 #navbarh{ 
     display: flex; 
