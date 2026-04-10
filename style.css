@@ -1,177 +1,1197 @@
-#bgpic{ width: 100vw; margin: 0px; position: absolute; top: 0px; left: 0px; font-size: 200px; color: white; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; display: flex; justify-content:left; align-items:end;  z-index: 1; filter: brightness(90%);}
-#img{height: 100%; width: 100%;}
-#home{padding: 0px;}
+#bgpic {
+    width: 100vw;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 200px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    z-index: 1;
+    filter: brightness(90%);
+}
 
-.tabs{display: inline-block; font-family:'Times New Roman', Times, serif; font-size: 30px;; padding: 10px; transition: all; transition-duration: 0.5s;  text-decoration: none;}
-#navbar{ display: flex; flex-direction: row;justify-content: end; align-items: center; width:100%;height: 45px;  position: absolute;top:0px; left: 0px; z-index: 5; transition: all; transition-duration: 1s;color: white; }
-#navbar:hover {height:60px; background-color: white;color:rgb(0, 0, 0);} 
+#img {
+    height: 100%;
+    width: 100%;
+}
 
-.tabs:active{color:rgb(130, 126, 126);}
-.tabs:hover { color:black }
-#blank{flex-grow: 2;}
-#name{font-size: 35px; font-family: serif;}
+#home {
+    padding: 0px;
+}
+
+.tabs {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px;
+    transition: all;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    transition: all;
+    transition-duration: 1s;
+    color: white;
+}
+
+#navbar:hover {
+    height: 60px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.tabs:active {
+    color: rgb(130, 126, 126);
+}
+
+.tabs:hover {
+    color: black
+}
+
+#blank {
+    flex-grow: 2;
+}
+
+#name {
+    font-size: 35px;
+    font-family: serif;
+}
+
 /* #name:active {color:black;} */
-#main{text-align: center; margin: 0px;}
-#end{position: absolute;left: 0px;top:1139px; right: 0px; width: 100%; background-color: #282828; ; z-index: 5; text-align: center; color: #6a6a6a; padding: 25px 0px 20px; font-size: 15px;}
-#socials{ position: absolute; z-index: 5; bottom: 0px; left:0px; font-size: 15px; color: white; font-family: Arial, Helvetica, sans-serif; display: flex; flex-direction: row; justify-content: left; align-content: end; width: 100%; }
-.socials{display: inline-block; padding: 0px 10px; text-decoration: none; color: white; }
-.logo{display: inline-block; padding: 0px 0px; height:25px; width:25px}
-.label{display: inline-block; padding: 1px 1px; text-decoration: none; color: white; height:100%; margin:0px 0px 1px 0px; font-weight: 300;}
-#fc{background-image: url(link_icon.png); background-repeat: no-repeat; background-size: cover; background-position: 0 0; vertical-align: middle;}
-#fb{background-image: url(link_icon.png); background-repeat: no-repeat; background-size: cover; background-position: 0 -25px; vertical-align: middle;}
-#x{background-image: url(link_icon.png); background-repeat: no-repeat; background-size: cover; background-position: 0 -50px; vertical-align: middle;}
-#yt{background-image: url(link_icon.png); background-repeat: no-repeat; background-size: cover; background-position: 0 -75px; vertical-align: middle;}
-#wv{background-image: url(link_icon_weverse.png); background-repeat: no-repeat; background-size: cover; background-position: 0 0; vertical-align: middle; height:15px; width:24px}
-#ig{background-image: url(link_icon.png); background-repeat: no-repeat; background-size: cover; background-position: 0 -100px; vertical-align: middle;}
+#main {
+    text-align: center;
+    margin: 0px;
+}
 
+#end {
+    position: absolute;
+    left: 0px;
+    top: 1139px;
+    right: 0px;
+    width: 100%;
+    background-color: #282828;
+    z-index: 5;
+    text-align: center;
+    color: #6a6a6a;
+    padding: 25px 0px 20px;
+    font-size: 15px;
+}
 
-#nm{position: absolute; z-index: 5;top:300px; left:430px; font-size: 70px; font-family:Arial, Helvetica, sans-serif; color: white; font-weight: 600;}
-#navbarh{ display: flex; flex-direction: row;justify-content: end; align-items: center; width:100%;height: 60px;  position: fixed;top:0px; left: 0px; z-index: 5;color: black; background-color: white;  height:80px;border-bottom: 1px solid #ddd;}
+#socials {
+    position: absolute;
+    z-index: 5;
+    bottom: 0px;
+    left: 0px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: end;
+    width: 100%;
+}
+
+.socials {
+    display: inline-block;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: inline-block;
+    padding: 0px 0px;
+    height: 25px;
+    width: 25px
+}
+
+.label {
+    display: inline-block;
+    padding: 1px 1px;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    margin: 0px 0px 1px 0px;
+    font-weight: 300;
+}
+
+#fc {
+    background-image: url(link_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    vertical-align: middle;
+}
+
+#fb {
+    background-image: url(link_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -25px;
+    vertical-align: middle;
+}
+
+#x {
+    background-image: url(link_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -50px;
+    vertical-align: middle;
+}
+
+#yt {
+    background-image: url(link_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -75px;
+    vertical-align: middle;
+}
+
+#wv {
+    background-image: url(link_icon_weverse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    vertical-align: middle;
+    height: 15px;
+    width: 24px;
+}
+
+#ig {
+    background-image: url(link_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -100px;
+    vertical-align: middle;
+}
+
+#nm {
+    position: absolute;
+    z-index: 5;
+    top: 300px;
+    left: 430px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+#navbarh {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    color: black;
+    background-color: white;
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+}
+
 /* #navbarh:hover {height:60px; color:rgb(130, 126, 126); } */
-.tabs:hover { color:black;}
-#infoheadmini{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;margin-top: 0px; margin-bottom: 0px;}
-#infohead{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 30px; margin-top: 0px; margin-bottom: 0px;}
-#abt{height: 1300px; width: 100%; padding:0px; position: absolute; top:600px;display: flex; justify-content: center;  padding-left: 15px; padding-top: 20px; }
-#abtinfo{height: 100%; width:500px; font-size: 20px; font-family: serif; color: black; text-align: left;position:absolute; left:15px;}
-#abtblank{height: 100%; width:70px; }
-#infopic{height: 450px; width:640px; background-image: url(svtot13.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; margin:0px; padding:0px; margin-top: 10px; position: absolute; top:5px; left:0px;}
-#award{display: flex; position: relative; left:580px ; bottom:2037px; width:650px;}
-#lst{display: inline-block; position: relative; top:550px; font-size: 17px; list-style:circle; color: #6a6a6a;}
-#dd{display: inline-block;}
-#m{display: inline-block; }
-#dq{color: #6a6a6a; padding-right: 2px; width:100px; font-size: 17px; display: inline-block;  }
-#da{ display: inline-block; font-size: 17px; }
-#mq{color: #6a6a6a; padding-right: 2px; width:100px;font-size: 17px; display: inline-block; position: relative; bottom: 80px;}
-#ma{ display: inline-block; width: 350px; font-size: 17px; }
-#h{ border:3px red solid; display: flex;height:50px; width:500px; text-align: center;text-decoration: none; justify-content: center; align-items: center; color: red; background-color: white; font-size: 25px; }
+.tabs:hover {
+    color: black;
+}
 
+#infoheadmini {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
+#infohead {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
-#bg{background-image: url(svtrh.jpeg); margin:0px; background-size: cover; background-repeat: no-repeat;  background-position: center; height: 45vh; width:100vw; opacity:0.75;  z-index: -10;  color: white; display: inline-block;font-size: 50px; font-family: Georgia, 'Times New Roman', Times, serif; display: flex; justify-content: left; align-items: end;}
+#abt {
+    height: 1300px;
+    width: 100%;
+    padding: 0px;
+    position: absolute;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+#abtinfo {
+    height: 100%;
+    width: 500px;
+    font-size: 20px;
+    font-family: serif;
+    color: black;
+    text-align: left;
+    position: absolute;
+    left: 15px;
+}
+
+#abtblank {
+    height: 100%;
+    width: 70px;
+}
+
+#infopic {
+    height: 450px;
+    width: 640px;
+    background-image: url(svtot13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+#award {
+    display: flex;
+    position: relative;
+    left: 580px;
+    bottom: 2037px;
+    width: 650px;
+}
+
+#lst {
+    display: inline-block;
+    position: relative;
+    top: 550px;
+    font-size: 17px;
+    list-style: circle;
+    color: #6a6a6a;
+}
+
+#dd {
+    display: inline-block;
+}
+
+#m {
+    display: inline-block;
+}
+
+#dq {
+    color: #6a6a6a;
+    padding-right: 2px;
+    width: 100px;
+    font-size: 17px;
+    display: inline-block;
+}
+
+#da {
+    display: inline-block;
+    font-size: 17px;
+}
+
+#mq {
+    color: #6a6a6a;
+    padding-right: 2px;
+    width: 100px;
+    font-size: 17px;
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+}
+
+#ma {
+    display: inline-block;
+    width: 350px;
+    font-size: 17px;
+}
+
+#h {
+    border: 3px red solid;
+    display: flex;
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    background-color: white;
+    font-size: 25px;
+}
+
+#bg {
+    background-image: url(svtrh.jpeg);
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45vh;
+    width: 100vw;
+    opacity: 0.75;
+    z-index: -10;
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+
 /* #heading{text-align: center; color: black;  border-color:black; border-radius: 10%; display: inline-block;font-size: 50px; font-family: Georgia, 'Times New Roman', Times, serif; border-width: 5px; border-style: dotted;} */
-#desc{ text-align: center;color: black; display: inline-block; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-#sm{text-align:centre; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-#members{text-align:centre;  border-width: 3px; border-color: black; display: inline-block; border-style: solid; height: 730px; width:500px; margin-top:10px; position: absolute; left: 0px; padding-top: 10px;}
-#young{text-align: center;display: inline-block; width:100%; }
-#cat{text-align: center;display: inline-block; width:100%; }
-#trio{text-align: center;display: inline-block;width:100%; }
-#duo{text-align: center;display: inline-block;width:100%; }
-#maknae{text-align: center;display: inline-block;width:100%; }
-.young{height: 120px; width: 120px; color: white; text-decoration: none; text-align: centre; font-size: 10px; }
-.cat{height: 120px; width: 120px; }
-.trio{height: 120px; width: 120px;  }
-.duo{height: 120px; width: 120px; }
-.maknae{height: 120px; width: 120px;}
-#Coups{background-image: url(Scoups.jpg); background-size:cover; background-position: center;}
-#Hannie{background-image: url(jeonghan.jpg); background-size:cover; background-position: center;}
-#Shua{background-image: url(joshua.jpg); background-size:cover; background-position: center;}
-#Jun{background-image: url(jun.jpg); background-size:cover; background-position: center;}
-#Hoshi{background-image: url(hoshi.jpg); background-size:cover; background-position: center;}
-#Wonu{background-image: url(wonwoo.jpg); background-size:cover; background-position: center;}
-#Uji{background-image: url(woozi.jpg); background-size:cover; background-position: center;}
-#The8{background-image: url(the8.jpeg); background-size:cover; background-position: center;}
-#Gyu{background-image: url(mingyu.jpg); background-size:cover; background-position: center;}
-#Seok{background-image: url(dk.jpg); background-size:cover; background-position: center;}
-#Kwan{background-image: url(seungkwan.jpg); background-size:cover; background-position: center;}
-#Non{background-image: url(vernon.jpg); background-size:cover; background-position: center;}
-#Dino{background-image: url(dino.jpg); background-size:cover; background-position: center;}
-#scb{display: inline-block;}
-#jhb{display: inline-block;}
-#jsb{display: inline-block;}
-#jnb{display: inline-block;}
-#hsb{display: inline-block;}
-#wwb{display: inline-block;}
-#wzb{display: inline-block;}
-#mhb{display: inline-block;}
-#mgb{display: inline-block;}
-#dkb{display: inline-block;}
-#skb{display: inline-block;}
-#vnb{display: inline-block;}
-#dnb{display: inline-block;}
-#endprof{position: absolute;left: 0px;top:2800px; right: 0px; width: 100%; background-color: #282828; ; z-index: 5; text-align: center; color: #6a6a6a; padding: 25px 0px 20px; font-size: 15px;}
+
+#desc {
+    text-align: center;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sm {
+    text-align: centre;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#members {
+    text-align: centre;
+    border-width: 3px;
+    border-color: black;
+    display: inline-block;
+    border-style: solid;
+    height: 730px;
+    width: 500px;
+    margin-top: 10px;
+    position: absolute;
+    left: 0px;
+    padding-top: 10px;
+}
+
+#young {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+#cat {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+#trio {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+#duo {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+#maknae {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.young {
+    height: 120px;
+    width: 120px;
+    color: white;
+    text-decoration: none;
+    text-align: centre;
+    font-size: 10px;
+}
+
+.cat {
+    height: 120px;
+    width: 120px;
+}
+
+.trio {
+    height: 120px;
+    width: 120px;
+}
+
+.duo {
+    height: 120px;
+    width: 120px;
+}
+
+.maknae {
+    height: 120px;
+    width: 120px;
+}
+
+#Coups {
+    background-image: url(Scoups.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Hannie {
+    background-image: url(jeonghan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Shua {
+    background-image: url(joshua.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Jun {
+    background-image: url(jun.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Hoshi {
+    background-image: url(hoshi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Wonu {
+    background-image: url(wonwoo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Uji {
+    background-image: url(woozi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#The8 {
+    background-image: url(the8.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Gyu {
+    background-image: url(mingyu.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Seok {
+    background-image: url(dk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Kwan {
+    background-image: url(seungkwan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Non {
+    background-image: url(vernon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Dino {
+    background-image: url(dino.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#scb {
+    display: inline-block;
+}
+
+#jhb {
+    display: inline-block;
+}
+
+#jsb {
+    display: inline-block;
+}
+
+#jnb {
+    display: inline-block;
+}
+
+#hsb {
+    display: inline-block;
+}
+
+#wwb {
+    display: inline-block;
+}
+
+#wzb {
+    display: inline-block;
+}
+
+#mhb {
+    display: inline-block;
+}
+
+#mgb {
+    display: inline-block;
+}
+
+#dkb {
+    display: inline-block;
+}
+
+#skb {
+    display: inline-block;
+}
+
+#vnb {
+    display: inline-block;
+}
+
+#dnb {
+    display: inline-block;
+}
+
+#endprof {
+    position: absolute;
+    left: 0px;
+    top: 2800px;
+    right: 0px;
+    width: 100%;
+    background-color: #282828;
+    z-index: 5;
+    text-align: center;
+    color: #6a6a6a;
+    padding: 25px 0px 20px;
+    font-size: 15px;
+}
+
+#sc {
+    text-align: center;
+}
+
+#schead {
+    text-align: center;
+    height: 100px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#whole {
+    display: inline-block;
+    height: 450px;
+    width: 1000px;
+    text-align: center;
+    border-color: black;
+    padding-bottom: 20px;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 125px;
+    background-color: blanchedalmond;
+}
+
+#scpic {
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-image: url(Scoups.jpg);
+    background-position: center;
+    background-size: cover;
+    border-color: rgb(87, 61, 88);
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+#scdetails {
+    display: inline-block;
+    font-size: 17px;
+    width: 550px;
+    ;
+    position: relative;
+    margin: 10px 10px;
+}
+
+#space {
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+}
+
+#scmore {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: dotted 3px black;
+    padding: 15px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5%;
+}
+
+#jh {
+    text-align: center;
+}
+
+#jhhead {
+    text-align: center;
+    height: 100px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#whole {
+    display: inline-block;
+    height: 450px;
+    width: 1000px;
+    text-align: center;
+    border-color: black;
+    padding-bottom: 20px;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 125px;
+    background-color: blanchedalmond;
+}
+
+#jhpic {
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-image: url(jeonghan.jpg);
+    background-position: center;
+    background-size: cover;
+    border-color: rgb(87, 61, 88);
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+#jhdetails {
+    display: inline-block;
+    font-size: 17px;
+    width: 550px;
+    ;
+    position: relative;
+    margin: 10px 10px;
+}
+
+#space {
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+}
+
+#jhmore {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: dotted 3px black;
+    padding: 15px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5%;
+}
+
+#js {
+    text-align: center;
+}
+
+#jshead {
+    text-align: center;
+    height: 100px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#whole {
+    display: inline-block;
+    height: 450px;
+    width: 1000px;
+    text-align: center;
+    border-color: black;
+    padding-bottom: 20px;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 125px;
+    background-color: blanchedalmond;
+}
+
+#jspic {
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-image: url(joshua.jpg);
+    background-position: center;
+    background-size: cover;
+    border-color: rgb(87, 61, 88);
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+#jsdetails {
+    display: inline-block;
+    font-size: 17px;
+    width: 550px;
+    ;
+    position: relative;
+    margin: 10px 10px;
+}
+
+#space {
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+}
+
+#jsmore {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: dotted 3px black;
+    padding: 15px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5%;
+}
 
 
+#jn {
+    text-align: center;
+}
+
+#jnhead {
+    text-align: center;
+    height: 100px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#whole {
+    display: inline-block;
+    height: 450px;
+    width: 1000px;
+    text-align: center;
+    border-color: black;
+    padding-bottom: 20px;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 125px;
+    background-color: blanchedalmond;
+}
+
+#jnpic {
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-image: url(jun.jpg);
+    background-position: center;
+    background-size: cover;
+    border-color: rgb(87, 61, 88);
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+#jndetails {
+    display: inline-block;
+    font-size: 17px;
+    width: 550px;
+    ;
+    position: relative;
+    margin: 10px 10px;
+}
+
+#space {
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+}
+
+#jnmore {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: dotted 3px black;
+    padding: 15px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5%;
+}
 
 
+#hs {
+    text-align: center;
+}
+
+#hshead {
+    text-align: center;
+    height: 100px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#whole {
+    display: inline-block;
+    height: 450px;
+    width: 1000px;
+    text-align: center;
+    border-color: black;
+    padding-bottom: 20px;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 125px;
+    background-color: blanchedalmond;
+}
+
+#hspic {
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-image: url(hoshi.jpg);
+    background-position: center;
+    background-size: cover;
+    border-color: rgb(87, 61, 88);
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+#hsdetails {
+    display: inline-block;
+    font-size: 17px;
+    width: 550px;
+    ;
+    position: relative;
+    margin: 10px 10px;
+}
+
+#space {
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+}
+
+#hsmore {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: dotted 3px black;
+    padding: 15px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5%;
+}
 
 
+#ww {
+    text-align: center;
+}
+
+#wwhead {
+    text-align: center;
+    height: 100px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#whole {
+    display: inline-block;
+    height: 450px;
+    width: 1000px;
+    text-align: center;
+    border-color: black;
+    padding-bottom: 20px;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 125px;
+    background-color: blanchedalmond;
+}
+
+#wwpic {
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-image: url(wonwoo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-color: rgb(87, 61, 88);
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+#wwdetails {
+    display: inline-block;
+    font-size: 17px;
+    width: 550px;
+    ;
+    position: relative;
+    margin: 10px 10px;
+}
+
+#space {
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+}
+
+#wwmore {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: dotted 3px black;
+    padding: 15px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5%;
+}
 
 
+#wz {
+    text-align: center;
+}
+
+#wzhead {
+    text-align: center;
+    height: 100px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#whole {
+    display: inline-block;
+    height: 450px;
+    width: 1000px;
+    text-align: center;
+    border-color: black;
+    padding-bottom: 20px;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 125px;
+    background-color: blanchedalmond;
+}
+
+#wzpic {
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-image: url(woozi.jpg);
+    background-position: center;
+    background-size: cover;
+    border-color: rgb(87, 61, 88);
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+#wzdetails {
+    display: inline-block;
+    font-size: 17px;
+    width: 550px;
+    ;
+    position: relative;
+    margin: 10px 10px;
+}
+
+#space {
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+}
+
+#wzmore {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: dotted 3px black;
+    padding: 15px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5%;
+}
 
 
+#mh {
+    text-align: center;
+}
 
+#mhhead {
+    text-align: center;
+    height: 100px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+#whole {
+    display: inline-block;
+    height: 450px;
+    width: 1000px;
+    text-align: center;
+    border-color: black;
+    padding-bottom: 20px;
+    border-width: 3px;
+    border-style: double;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 125px;
+    background-color: blanchedalmond;
+}
 
+#mhpic {
+    position: relative;
+    margin-left: 40px;
+    text-align: left;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-image: url(the8.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-color: rgb(87, 61, 88);
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 10%;
+}
 
+#mhdetails {
+    display: inline-block;
+    font-size: 17px;
+    width: 550px;
+    ;
+    position: relative;
+    margin: 10px 10px;
+}
 
+#space {
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+}
 
-#sc{text-align: center;}
-#schead{text-align: center; height: 100px; font-size: 45px; font-family: Georgia, 'Times New Roman', Times, serif; background-color: blanchedalmond; display: flex; flex-direction: row; justify-content: center; align-items: center;}
-#whole{display: inline-block;  height:450px; width: 1000px; text-align: center; border-color: black; padding-bottom: 20px; border-width: 3px; border-style: double; border-radius: 5%;display:flex; justify-content: center; align-items: center; position: relative; margin-left: 125px; background-color: blanchedalmond;}
-#scpic{ position:relative; margin-left: 40px; text-align: left; height: 400px; width: 300px; display: inline-block; background-image: url(Scoups.jpg); background-position: center; background-size: cover; border-color: rgb(87, 61, 88); border-width: 5px; border-style:groove; border-radius: 10%;}
-#scdetails{ display: inline-block; font-size: 17px; width:550px; ; position: relative; margin: 10px 10px; }
-#space{height:100%; width:100px; display: inline-block;}
-#scmore{text-align: left; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border:  dotted 3px black;  padding:15px; margin: 0px 10px 0px 10px; border-radius: 5%;}
-
-
-#jh{text-align: center;}
-#jhhead{text-align: center; height: 100px; font-size: 45px; font-family: Georgia, 'Times New Roman', Times, serif; background-color: blanchedalmond; display: flex; flex-direction: row; justify-content: center; align-items: center;}
-#whole{display: inline-block;  height:450px; width: 1000px; text-align: center; border-color: black; padding-bottom: 20px; border-width: 3px; border-style: double; border-radius: 5%;display:flex; justify-content: center; align-items: center; position: relative; margin-left: 125px; background-color: blanchedalmond;}
-#jhpic{ position:relative; margin-left: 40px; text-align: left; height: 400px; width: 300px; display: inline-block; background-image: url(jeonghan.jpg); background-position: center; background-size: cover; border-color: rgb(87, 61, 88); border-width: 5px; border-style:groove; border-radius: 10%;}
-#jhdetails{ display: inline-block; font-size: 17px; width:550px; ; position: relative; margin: 10px 10px; }
-#space{height:100%; width:100px; display: inline-block;}
-#jhmore{text-align: left; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border:  dotted 3px black;  padding:15px; margin: 0px 10px 0px 10px; border-radius: 5%;}
-
-
-#js{text-align: center;}
-#jshead{text-align: center; height: 100px; font-size: 45px; font-family: Georgia, 'Times New Roman', Times, serif; background-color: blanchedalmond; display: flex; flex-direction: row; justify-content: center; align-items: center;}
-#whole{display: inline-block;  height:450px; width: 1000px; text-align: center; border-color: black; padding-bottom: 20px; border-width: 3px; border-style: double; border-radius: 5%;display:flex; justify-content: center; align-items: center; position: relative; margin-left: 125px; background-color: blanchedalmond;}
-#jspic{ position:relative; margin-left: 40px; text-align: left; height: 400px; width: 300px; display: inline-block; background-image: url(joshua.jpg); background-position: center; background-size: cover; border-color: rgb(87, 61, 88); border-width: 5px; border-style:groove; border-radius: 10%;}
-#jsdetails{ display: inline-block; font-size: 17px; width:550px; ; position: relative; margin: 10px 10px; }
-#space{height:100%; width:100px; display: inline-block;}
-#jsmore{text-align: left; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border:  dotted 3px black;  padding:15px; margin: 0px 10px 0px 10px; border-radius: 5%;}
-
-
-#jn{text-align: center;}
-#jnhead{text-align: center; height: 100px; font-size: 45px; font-family: Georgia, 'Times New Roman', Times, serif; background-color: blanchedalmond; display: flex; flex-direction: row; justify-content: center; align-items: center;}
-#whole{display: inline-block;  height:450px; width: 1000px; text-align: center; border-color: black; padding-bottom: 20px; border-width: 3px; border-style: double; border-radius: 5%;display:flex; justify-content: center; align-items: center; position: relative; margin-left: 125px; background-color: blanchedalmond;}
-#jnpic{ position:relative; margin-left: 40px; text-align: left; height: 400px; width: 300px; display: inline-block; background-image: url(jun.jpg); background-position: center; background-size: cover; border-color: rgb(87, 61, 88); border-width: 5px; border-style:groove; border-radius: 10%;}
-#jndetails{ display: inline-block; font-size: 17px; width:550px; ; position: relative; margin: 10px 10px; }
-#space{height:100%; width:100px; display: inline-block;}
-#jnmore{text-align: left; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border:  dotted 3px black;  padding:15px; margin: 0px 10px 0px 10px; border-radius: 5%;}
-
-
-#hs{text-align: center;}
-#hshead{text-align: center; height: 100px; font-size: 45px; font-family: Georgia, 'Times New Roman', Times, serif; background-color: blanchedalmond; display: flex; flex-direction: row; justify-content: center; align-items: center;}
-#whole{display: inline-block;  height:450px; width: 1000px; text-align: center; border-color: black; padding-bottom: 20px; border-width: 3px; border-style: double; border-radius: 5%;display:flex; justify-content: center; align-items: center; position: relative; margin-left: 125px; background-color: blanchedalmond;}
-#hspic{ position:relative; margin-left: 40px; text-align: left; height: 400px; width: 300px; display: inline-block; background-image: url(hoshi.jpg); background-position: center; background-size: cover; border-color: rgb(87, 61, 88); border-width: 5px; border-style:groove; border-radius: 10%;}
-#hsdetails{ display: inline-block; font-size: 17px; width:550px; ; position: relative; margin: 10px 10px; }
-#space{height:100%; width:100px; display: inline-block;}
-#hsmore{text-align: left; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border:  dotted 3px black;  padding:15px; margin: 0px 10px 0px 10px; border-radius: 5%;}
-
-
-#ww{text-align: center;}
-#wwhead{text-align: center; height: 100px; font-size: 45px; font-family: Georgia, 'Times New Roman', Times, serif; background-color: blanchedalmond; display: flex; flex-direction: row; justify-content: center; align-items: center;}
-#whole{display: inline-block;  height:450px; width: 1000px; text-align: center; border-color: black; padding-bottom: 20px; border-width: 3px; border-style: double; border-radius: 5%;display:flex; justify-content: center; align-items: center; position: relative; margin-left: 125px; background-color: blanchedalmond;}
-#wwpic{ position:relative; margin-left: 40px; text-align: left; height: 400px; width: 300px; display: inline-block; background-image: url(wonwoo.jpg); background-position: center; background-size: cover; border-color: rgb(87, 61, 88); border-width: 5px; border-style:groove; border-radius: 10%;}
-#wwdetails{ display: inline-block; font-size: 17px; width:550px; ; position: relative; margin: 10px 10px; }
-#space{height:100%; width:100px; display: inline-block;}
-#wwmore{text-align: left; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border:  dotted 3px black;  padding:15px; margin: 0px 10px 0px 10px; border-radius: 5%;}
-
-
-#wz{text-align: center;}
-#wzhead{text-align: center; height: 100px; font-size: 45px; font-family: Georgia, 'Times New Roman', Times, serif; background-color: blanchedalmond; display: flex; flex-direction: row; justify-content: center; align-items: center;}
-#whole{display: inline-block;  height:450px; width: 1000px; text-align: center; border-color: black; padding-bottom: 20px; border-width: 3px; border-style: double; border-radius: 5%;display:flex; justify-content: center; align-items: center; position: relative; margin-left: 125px; background-color: blanchedalmond;}
-#wzpic{ position:relative; margin-left: 40px; text-align: left; height: 400px; width: 300px; display: inline-block; background-image: url(woozi.jpg); background-position: center; background-size: cover; border-color: rgb(87, 61, 88); border-width: 5px; border-style:groove; border-radius: 10%;}
-#wzdetails{ display: inline-block; font-size: 17px; width:550px; ; position: relative; margin: 10px 10px; }
-#space{height:100%; width:100px; display: inline-block;}
-#wzmore{text-align: left; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border:  dotted 3px black;  padding:15px; margin: 0px 10px 0px 10px; border-radius: 5%;}
-
-
-#mh{text-align: center;}
-#mhhead{text-align: center; height: 100px; font-size: 45px; font-family: Georgia, 'Times New Roman', Times, serif; background-color: blanchedalmond; display: flex; flex-direction: row; justify-content: center; align-items: center;}
-#whole{display: inline-block;  height:450px; width: 1000px; text-align: center; border-color: black; padding-bottom: 20px; border-width: 3px; border-style: double; border-radius: 5%;display:flex; justify-content: center; align-items: center; position: relative; margin-left: 125px; background-color: blanchedalmond;}
-#mhpic{ position:relative; margin-left: 40px; text-align: left; height: 400px; width: 300px; display: inline-block; background-image: url(the8.jpeg); background-position: center; background-size: cover; border-color: rgb(87, 61, 88); border-width: 5px; border-style:groove; border-radius: 10%;}
-#mhdetails{ display: inline-block; font-size: 17px; width:550px; ; position: relative; margin: 10px 10px; }
-#space{height:100%; width:100px; display: inline-block;}
-#mhmore{text-align: left; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border:  dotted 3px black;  padding:15px; margin: 0px 10px 0px 10px; border-radius: 5%;}
+#mhmore {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: dotted 3px black;
+    padding: 15px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5%;
+}
