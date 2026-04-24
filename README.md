@@ -1,3 +1,3 @@
 Seventeen's clone website
 
-This is my first project and I made this just for practice :)
+https://s3n-17.github.io/Seventeen-Website/
